@@ -109,7 +109,7 @@ export default function Header() {
             ) : (
               <>
                 <span className="text-sm text-gray-700 font-medium">{user.name}</span>
-                {user.role === 'admin' && (
+                {user?.role === 'admin' && (
                   <Link
                     href="/admin/dashboard"
                     className="text-sm text-blue-600 underline hover:text-blue-800"

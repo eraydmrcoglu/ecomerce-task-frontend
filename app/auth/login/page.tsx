@@ -32,7 +32,7 @@ export default function LoginPage() {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-pink-50 flex items-center justify-center px-4">
+    <section className="min-h-screen bg-white flex items-center justify-center px-4">
       <div className="w-full max-w-md bg-white p-8 rounded-xl shadow-xl">
         <div className="mb-6 text-center">
           <h1 className="text-2xl font-bold text-gray-800">Welcome</h1>
